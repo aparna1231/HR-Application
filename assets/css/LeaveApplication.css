@@ -1,0 +1,105 @@
+ .floating-box5
+	  {
+		
+	  display:relative;
+	  
+	  margin:10px;
+	  border: 1px solid green;
+	  background-color:#F0ECEB;
+	  
+	  
+	  }
+	  .floating-box6
+	  {
+		
+	  height:600px;
+	  width:500px;
+	  
+	  margin:10px;
+	  border: 1px solid green;
+	  background-color:#F0ECEB;
+	  
+	  
+	  }
+	  input[type="date"]:not(.has-value):before{
+  color: lightgray;
+  content: attr(placeholder);
+}
+
+.mydata1
+{
+	
+	float:center;
+	  }
+	  
+	  .table {
+    border-bottom:0px !important;
+	border:0px !important;
+}
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
+.month{
+	
+	height:30px;
+	width:80px;	
+}
+
+.sick_type{
+	height:30px;
+	width:150px
+	
+}
+.mydata_applyLeave
+{
+		
+		text-align:center;
+		padding:5px;
+		
+		height: 30px;
+		width:150px;
+		
+		.input {
+	
+	margin-left:0px;
+	}
+		}
+
+.floating-box_myleave{
+	display:inline-block;
+	  width:800px;
+	  height:330px;
+	  margin:10px;
+	  border: 1px solid green;
+	  background-color:#F0ECEB;
+	  	
+}
+
+.table-element
+{
+	width:100%;
+
+}
+#someid tr td{
+    width:30%;
+}
+.search label{
+	margin-right: 80px;
+	
+}
+.mytable1
+{
+		float:left;
+		
+		
+		}
+		
+		
+		.mytable1 {
+			
+			padding :1px;
+			font-size:15px;
+		}
+		

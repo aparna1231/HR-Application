@@ -1,0 +1,19 @@
+ 
+	  .floating-box4
+	  {
+		
+	  display:inline-block;
+	  width:600px;
+	  height:300px;
+	  margin:10px;
+	  border: 1px solid green;
+	  background-color:#F0ECEB;
+	  
+	  }
+	  
+	  .myButton
+	  {
+		  
+		    padding-left:20px;
+		  
+		    }

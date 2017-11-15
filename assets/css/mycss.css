@@ -1,0 +1,165 @@
+.mytable
+{
+		float:left;
+		
+		
+		}
+		
+		
+		.mytable {
+			
+			padding :12px;
+			font-size:15px;
+		}
+		
+		
+		
+		.mydata
+{
+		
+		text-align:center;
+		padding:5px;
+		
+		height: 30px;
+		width:250px;
+		
+		}
+		
+		.floating-box4   {
+			display:inline-block;
+			width:600px;
+			height:300px;
+			margin:10px;
+			border:1px solid #4d4d4d;
+			background-color:#F0ECEB;
+		
+			  }
+		.floating-box
+		
+                 {
+		float:left;
+	  display:inline-block;
+	  width:500px;
+	  height:350px;
+	  margin:10px;
+	  border: 1px solid #4d4d4d;
+	  background-color:#F0ECEB;
+	  
+	  }
+	  .floating-boxDocuments
+		
+                 {
+		float:left;
+	  display:inline-block;
+	  width:500px;
+	  height:400px;
+	  margin:10px;
+	  border: 1px solid #4d4d4d;
+	  background-color:#F0ECEB;
+	  
+	  }
+	  .floating-boxViewVisa
+		
+                 {
+		float:left:
+	  display:inline-block;
+	  width:500px;
+	  height:440px;
+	  margin:10px;
+	  border: 1px solid #4d4d4d;
+	  background-color:#F0ECEB;
+	  
+	  }
+	  
+	  .floating-boxvisa
+		
+                 {
+		float:left;
+	  display:inline-block;
+	  width:500px;
+	  height:450px;
+	  margin:10px;
+	  border: 1px solid #4d4d4d;
+	  background-color:#F0ECEB;
+	  
+	  }
+	  
+	  
+	  .myFile   {
+		  padding:1px;
+	  	  }
+	  .floating-box1
+	  
+	  {
+		float:left;
+	  display:inline-block;
+	  width:540px;
+	  height:700px;
+	  margin:10px;
+	  border: 1px solid #4d4d4d;
+	  
+	  }
+	  .floating-box10
+	  
+	  {
+		float:left;
+	  display:inline-block;
+	  width:500px;
+	  height:220px;
+	  margin:10px;
+	  border: 1px solid #4d4d4d;
+	  
+	  }
+	  .floating-boxDepandants {
+		float:left;
+	  display:inline-block;
+	  width:500px;
+	  height:220px;
+	  margin:10px;
+	  border: 1px solid #4d4d4d;
+	  
+	  }
+	   
+	  .floating-box2
+	  
+	  {
+		
+	  display:inline-block;
+	  width:150px;
+	  height:100px;
+	  margin:10px;
+	  border: 1px solid #4d4d4d;
+	  background-color:#bfbfbf;
+	  
+	  }
+	  
+	  
+	  .myimage
+	   {
+		   
+	    text-align:leftwards;
+		text-decoration:absolute;
+		float:left;
+		padding:5px, 10px, 10px,10px;
+		
+	  }
+	  
+	  .col1-header
+	     {
+			 width: 100%;
+			 height:50px;
+			 color:white;
+			  background-color:	#595959;
+			  padding :10px;
+	    }
+		
+		.myButton
+	  {
+		  
+		    padding-left:20px;
+		  
+		    }
+			
+			
+			
+			

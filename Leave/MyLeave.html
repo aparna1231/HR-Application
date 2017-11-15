@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../assets/css/mycss.css" type="text/css"/>  
+<link rel="stylesheet" href="../assets/css/LeaveApplication.css" type="text/css"/>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../assets/images/required/ico/favicon.ico">
+	
+	<!-- Bootstrap -->
+
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    
+	<link type="text/css"  href="../assets/Bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link  type="text/css" href="../assets/Bootstrap/dataTables.bootstrap.min.css" rel="stylesheet">
+	
+
+
+       
+		  
+	<!-- Fav and touch icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/images/required/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/images/required/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/images/required/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="../assets/images/required/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="../assets/images/required/ico/favicon.png">
+
+	<title>DeudraaHR</title>
+
+	<!-- Required CSS Files -->
+	<link type="text/css" href="../assets/css/required/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link type="text/css" href="../assets/js/required/jquery-ui-1.11.0.custom/jquery-ui.min.css" rel="stylesheet" />
+	<link type="text/css" href="../assets/js/required/jquery-ui-1.11.0.custom/jquery-ui.structure.min.css" rel="stylesheet" />
+	<link type="text/css" href="../assets/js/required/jquery-ui-1.11.0.custom/jquery-ui.theme.min.css" rel="stylesheet" />
+	<link type="text/css" href="../assets/css/required/mCustomScrollbar/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+	<link type="text/css" href="../assets/css/required/icheck/all.css" rel="stylesheet" />
+	<link type="text/css" href="../assets/fonts/metrize-icons/styles-metrize-icons.css" rel="stylesheet">
+
+
+	<!-- More Required CSS Files -->
+	<link type="text/css" href="../assets/css/style-core-myLeave.css" rel="stylesheet" />
+	<link type="text/css" href="../assets/css/styles-core-responsive.css" rel="stylesheet" />
+	
+	<script type="text/javascript" src="../assets/js/required/jquery-1.11.1.min.js"></script>
+	
+	<script type = "text/javascript" src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+
+
+	<script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.9/datatables.min.js"></script>
+
+	
+
+	
+	<script type="text/javascript">
+	$(document).ready( function () {
+  var table = $('#example').DataTable({
+    "columnDefs": [
+      { className: "text-right", "targets": [3,5] },
+      { className: "text-nowrap", "targets": [0,1] }
+    ]
+  });
+} );
+</script>
+	
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- START Header Container -->
+		<div id="header-container">
+			<div class="header-bar navbar navbar-inverse" role="navigation"> <!-- NOTE TO READER: Accepts the following class(es) "navbar-fixed-top" class -->
+				<div class="container">
+					<div class="navbar-header">
+						<!-- START logo -->
+						<div class="logo">
+							<a href="ViewPersonalDetails.html">
+								<img class="default-logo" src="../assets/images/required/DeudraaLogo.jpg"   width="150" height="45" alt="Logo" />
+							</a>
+						</div>
+						<!-- END logo -->
+
+						<!-- START Mobile Menu Toggle -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<ul>
+						<li> <a class="active" href="#">Home</a></li>
+						
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						</ul>
+						<!-- END Mobile Menu Toggle -->
+
+						
+						
+
+						<!-- START Header Info Container -->
+						
+						
+						<!-- START Header Info Container -->
+						<div class="header-info">
+							<!-- START Header User Profile -->
+							<div class="header-profile"> <!-- NOTE TO READER: Accepts the following class(es) "animate" class -->
+								<ul class="header-profile-menu">
+								
+								
+								<li>
+									
+									<li>
+								
+								<a href="#" class="top">Logout<img src="../assets/images/required/logout.PNG" width="28" height="28"/></a>
+								
+								
+								</li>
+								
+									<li>
+								
+								<a href="#" class="top">Message<img src="../assets/images/required/new-message-icon (Small).PNG" width="28" height="28"/></a>
+								
+								
+								</li>
+								
+								
+								
+								
+								<li>
+								
+								<a href="#" class="top">Account <i class="icon icon-arrow-down-bold-round icon-size-small"></i></a>
+								
+								<ul class="second-order">
+								<li><a href="../MyAccount/ChangePassword.html"><span>change password</span></a></li>
+								<li><a href="../MyAccount/account.html"><span>Notice Board</span></a></li>
+								<li><a href="#"><span>logout</span></a></li>
+								</ul>
+								</li>
+									
+									<li>
+										<a href="#" class="top">
+											<span class="header-profile-menu-icon">
+												
+											</span>
+											<span class="main-menu-text">
+												Leave
+												<i class="icon icon-arrow-down-bold-round icon-size-small"></i>
+											</span>
+										</a>
+										
+									
+										
+										
+										<ul>
+										
+											
+										
+											<li>
+												<a href="ApplyLeave.html">
+													<span aria-hidden="true" class="icon icon-user"></span>
+													<span class="main-text">Apply Leave</span>
+												</a>
+											</li>
+											<li>
+												<a href="MyLeave.html">
+													<span aria-hidden="true" class="icon icon-mail"></span>
+													<span class="main-text">
+														<span class="badge pull-right"></span>
+														My Leave
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="Attendance.html">
+													<span aria-hidden="true" class="icon icon-star "></span>
+													<span class="main-text">
+													       Attendance
+														<span class="badge pull-right"></span>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="UpComingHolidays.html">
+													<span aria-hidden="true" class="icon icon-star "></span>
+													<span class="main-text">
+														UpComing Holidays
+														<span class="badge pull-right"></span>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="pages-signin-1.html">
+													<span aria-hidden="true" class="icon icon-arrow-curve-right"></span>
+													<span class="main-text">Logout</span>
+												</a>
+											</li>
+											
+										</ul>
+										
+										
+						<!-------->
+
+						<!-------->
+
+
+<li>
+										<a href="#" class="top">
+											<span class="header-profile-menu-icon">
+												
+											</span>
+											<span class="main-menu-text">
+												<img src="../assets/images/required/personal details.png" width="28" height="28" />Logged as My Profile
+												<i class="icon icon-arrow-down-bold-round icon-size-small"></i>
+											</span>
+										</a>
+								
+										<ul id="profile">
+										<li><span class="main-menu-text">name: xxxxxxxxxxxxxxx</span></li></br>
+										<li><span class="main-menu-text">Designation: xxxxxxxx</span></li></br>
+										<li><span class="main-menu-text">EmpId: xxxxxxxxx</span></li>											
+										</ul>
+										
+								<li>
+								
+								<a href="#" class="active"> Home</a>
+								
+								
+								</li>
+								
+									</li>
+									
+									
+									
+									
+									</li>
+									
+									
+									
+									
+									
+									
+									
+								</ul>
+							</div>
+							<!-- END Header User Profile -->
+
+
+							
+
+						</div>
+						<!-- END Header Info Container -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END Header Container -->
+
+		<!-- END Header Container -->
+
+		<!-- START Body Container -->
+		<div id="body-container">
+
+			<!-- START Left Column -->
+			<div id="left-column" class=""> <!-- NOTE TO READER: Accepts the following class(es) "menu-icon-only", "fixed" class -->
+				<div id="mainnav">
+					<ul class="mainnav"> <!-- NOTE TO READER: Accepts the following class(es) "animate" class -->
+						<li>
+							<a href="ApplyLeave.html" class="top">
+								<span class="main-menu-icon">
+									<span aria-hidden="true"></span>
+									
+									<img src="../assets/images/required/icon74 (Small).png"" width="50" height="50"/>
+									
+								</span> 
+								</br>
+								<span class="main-menu-text">Apply Leave</span>
+								
+							</a>
+						</li>
+						
+						
+						
+		
+						
+						<li class="menu-item-top">
+							<a href="../MyLeave.html" class="top">
+								<span class="main-menu-icon">
+									<span aria-hidden="true" class="icon icon-dollar"> </span>
+								</span>
+								
+								<span class="main-menu-text">My Leave</span>
+								
+								
+							</a>
+							
+						</li>
+						<li class="menu-item-top">
+							<a href="Attendance.html" class="top">
+								<span class="main-menu-icon">
+									<span aria-hidden="true" class="icon icon-layers"></span>
+								</span>
+								<span class="badge pull-right-corner"></span>
+								<span class="main-menu-text">Attendance</span>
+								
+								
+							</a>
+							
+						</li>
+						
+						
+						<li class="menu-item-top">
+							<a href="UpComingHolidays.html" class="top">
+								<span class="main-menu-icon">
+									<span aria-hidden="true" class="icon icon-layers"></span>
+								</span>
+								<span class="badge pull-right-corner"></span>
+								<span class="main-menu-text">Upcoming Holidays</span>
+								
+								
+							</a>
+							
+						</li>
+						
+						
+						
+						<li class="menu-item-top">
+					<li class="menu-item-top">
+							<a href="ViewDocumentsDetails.html" class="top">
+								<span class="main-menu-icon">
+									<span aria-hidden="true"></span>
+									
+									
+									<span aria-hidden="true" class="icon icon-document-fill"></span>
+								</span>
+																<span class="main-menu-text">Logout</span>
+								
+								
+								<li><a href="ViewDocumentsDetails.html"> </a></li>
+								</ul>
+								
+						
+						
+						</li>
+						
+						
+								
+								</ul>
+								
+						
+						
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			<!-- END Left Column -->
+
+			<!-- START Right Column -->
+			<div id="right-column">
+				<div class="right-column-content">
+					<div class="row">
+						<div class="col-xs-12">
+							<ol class="breadcrumb">
+							
+							
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								
+								<li>
+									<a href="#">MyLeave</a>
+								</li>
+							</ol>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<h1>
+								
+								<span class="main-text"> 
+									
+								</span>
+							</h1>
+						</div>
+						<div class="col-md-6">
+						</div>
+						
+						
+						
+						<div class="block-content-outer">
+									<div class="block-content-inner">
+										<form role="form">
+											<div class="form-group">
+											
+											
+											<form action="" method="">
+
+											
+											</div>
+											
+											
+											
+<!--------------------- START form ------------------------------>
+
+<form>
+<div class="floating-box5">
+<h2 class="col1-header"><b><img src="../assets/images/required/me.png" width="30" height=30"/>  My Leave<b></h2>
+</br>
+ 
+   
+
+  <body class="search">
+  
+    <div class="container">
+	<div class="row">
+	
+	
+	
+	<table id="example" class="table table-striped table-bordered" style="padding-left:80px;" cellspacing="0"  cellpadding="10px" border="0"  width="80%">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>From Date</th>
+                <th>To Date</th>
+                <th>Reason</th>
+                <th>Applied ON </th>
+                <th>Status</th>
+				<th>Action</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>2</th>
+                <th>12-06-2017</th>
+                <th>20-06-2017</th>
+                <th>Sick</th>
+                <th>5-06-2017</th>
+                <th>Approved</th>
+				<th><button type="button" value="View" >View</button></th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th>2</th>
+                <th>12-06-2017</th>
+                <th>20-06-2017</th>
+                <th>Sick</th>
+                <th>5-06-2017</th>
+                <th>Approved</th>
+				<th><button type="button" value="View" >View</button></th>
+            </tr>
+            
+                
+        </tbody>
+    </table>
+	
+	
+	
+	</div>
+	</div>
+
+  
+	
+	
+
+  
+	
+	
+  
+
+
+				<!-- START Footer Container -->
+				
+				<!-- END Footer Container -->
+
+			</div>
+			<!-- END Right Column -->
+
+		</div>
+		<!-- END Body Container -->
+	</div><!-- /.container -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<!-- Required JS Files -->
+	<!-- Required JS Files -->
+	<script type="text/javascript" src="../assets/js/required/jquery-ui-1.11.0.custom/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../assets/js/required/jquery.easing.1.3-min.js"></script>
+	<script type="text/javascript" src="../assets/js/required/misc/jquery.mousewheel-3.0.6.min.js"></script>
+	<script type="text/javascript" src="../assets/js/required/misc/retina.min.js"></script>
+	<script type="text/javascript" src="../assets/js/required/icheck.min.js"></script>
+	<script type="text/javascript" src="../assets/js/required/circloid-functions.js"></script>
+
+	
+	<script type="text/javascript" src="../assets/js/script.js"></script>
+	<!-- add additional User Editable files here -->
+
+	<!-- Demo JS Files -->
+	<script type="text/javascript" src="assets/js/demo-files/index.js"></script>
+</body>
+</html>
+
+</body>
+</html>
+
+
